@@ -18,10 +18,12 @@ end
 
 def assign_rooms (speakers)
   room_assignments =[]
+  
   speakers.each_with_index do |value, index|
   room_assignments.push("Hello, #{value}! You'll be assigned to room #{index+1}!")
   end
   room_assignments
+  
 end
 
 def printer (speakers)
